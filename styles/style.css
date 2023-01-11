@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+    background-color: black;
+    color:white;
+}
+#table_1,
+#table_2,
+#table_3 {
+    width: 60%;
+    border-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px;
+}
+tr {
+    text-align: left;
+}
+td,
+th {
+    padding: 7px;
+
+}
+#name_1 {
+    border: none;
+    background: none;
+    color: white;
+}
+#td_3 {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+td {
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid gray;
+}
+select,
+input,
+#td_3 {
+    cursor: pointer;
+}
+#search {
+    position: relative;
+    width: 180px;
+    height: 20px;
+    text-align: right;
+}
+#date {
+    width: 210px;
+}
+#input {
+    width: 170px;
+}
+button {
+    border: none;
+    background: none;
+    position: absolute;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.search {
+    text-align: center;
+}
